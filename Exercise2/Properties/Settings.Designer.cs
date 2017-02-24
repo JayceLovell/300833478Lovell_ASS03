@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace _300833478Lovell_ASS03.Properties
+namespace Exercise2.Properties
 {
 
 

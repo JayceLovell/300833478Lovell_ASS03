@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace _300833478Lovell_ASS03
+namespace Exercise2
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace _300833478Lovell_ASS03
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new Display());
         }
     }
 }

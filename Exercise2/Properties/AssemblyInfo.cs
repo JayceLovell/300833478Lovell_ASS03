@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("300833478Lovell_ASS03")]
+[assembly: AssemblyTitle("Exercise2")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("300833478Lovell_ASS03")]
+[assembly: AssemblyProduct("Exercise2")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("4e739cbb-b0fc-4118-b6f7-d3454324b5b5")]
+[assembly: Guid("bf2ae845-79ed-4727-962f-ed8811bc0f61")]
 
 // Version information for an assembly consists of the following four values:
 //

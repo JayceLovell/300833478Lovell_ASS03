@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F3B2BF53-3CE2-4FFD-9D09-253DDD9C4B66}</ProjectGuid>
+    <ProjectGuid>{617F86B9-3D96-4E78-8D4F-50A8A9C234EC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Books</RootNamespace>
@@ -95,8 +95,8 @@
     </Content>
     <Content Include="BooksModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>BooksModel.edmx</DependentUpon>
       <LastGenOutput>BooksModel.Context.cs</LastGenOutput>
+      <DependentUpon>BooksModel.edmx</DependentUpon>
     </Content>
     <Content Include="BooksModel.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
@@ -121,11 +121,13 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.Config" />
     <EntityDeploy Include="BooksModel.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>BooksModel.Designer.cs</LastGenOutput>
     </EntityDeploy>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config" />
     <None Include="BooksModel.edmx.diagram">
       <DependentUpon>BooksModel.edmx</DependentUpon>
     </None>
