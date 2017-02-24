@@ -35,13 +35,18 @@ namespace Exercise2
             var question2 = from table1 in dbcontext.Titles
                             from table2 in table1.Authors
                             orderby table1.Title1, table2.LastName, table2.FirstName
-                            select new { table1.Title1, table2.FirstName, table2.LastName };
+                            select new { Title=table1.Title1, table2.FirstName, table2.LastName };
             authorDataGridView.DataSource = question2.ToList();
         }
 
         private void btnSort3_Click(object sender, EventArgs e)
         {
-
+            var question3 = from table1 in dbcontext.Authors
+                            from table2 in table1.Titles
+                            orderby table2.Title1,table1.LastName,table1.FirstName
+                            select new { Title=table2.Title1,table1.LastName,table1.FirstName };
+            authorDataGridView.DataSource = question3.ToList();
+                            
         }
 
         private void btnViewAll_Click(object sender, EventArgs e)
@@ -49,7 +54,7 @@ namespace Exercise2
             var viewall = from table1 in dbcontext.Titles
                           from table2 in table1.Authors
                           orderby table1.Title1
-                          select new { table1.ISBN, table1.Title1, table1.EditionNumber,table2.FirstName,table2.LastName};
+                          select new { table1.ISBN, Title=table1.Title1, table1.EditionNumber,table2.FirstName,table2.LastName};
 
             authorDataGridView.DataSource = viewall.ToList();
         }

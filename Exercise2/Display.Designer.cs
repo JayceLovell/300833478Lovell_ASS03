@@ -90,7 +90,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1053, 513);
+            this.ClientSize = new System.Drawing.Size(1053, 321);
             this.Controls.Add(this.btnViewAll);
             this.Controls.Add(this.btnQuestion3);
             this.Controls.Add(this.btnQuestion2);
